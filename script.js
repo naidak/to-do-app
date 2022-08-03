@@ -26,7 +26,7 @@ let AddTask = () => {
 }
 
 $(".txtb").on("keyup", function(e) {
-    if (e.keyCode == 13 && $(".txtb").val() != "") {
+    if (e.keyCode == 13) {
         AddTask();
     }
 })
